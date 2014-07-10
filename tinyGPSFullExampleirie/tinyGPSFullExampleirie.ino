@@ -6,7 +6,7 @@
    4800-baud serial GPS device hooked up on pins 4(rx) and 3(tx).
 */
 static const int RXPin = 2, TXPin = 3;
-static const uint32_t GPSBaud = 9600;
+static const uint32_t GPSBaud = 9600; //for t223　
 
 // The TinyGPS++ object
 TinyGPSPlus gps;
